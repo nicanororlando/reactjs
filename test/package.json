@@ -1,0 +1,24 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "Prueba de directorio para aprender git y node",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite", 
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicanororlando/practica-full-stack-react.git"
+  },
+  "author": "canor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicanororlando/practica-full-stack-react/issues"
+  },
+  "homepage": "https://github.com/nicanororlando/practica-full-stack-react#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
