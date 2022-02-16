@@ -1,0 +1,26 @@
+* {
+    color: black;
+}
+.jumbotron{
+    padding: 70px 30px;
+    margin: 0 auto;
+    background-color: #9575cd;
+    color: floralwhite;
+}
+.history{
+    margin: 20px 20px 20px 5px;
+    padding: 20px 20px 20px 8px;
+}
+div h2{
+    padding: 10px 10px 10px 0;
+}
+footer{
+    padding: 70px 30px;
+    margin: 0 auto;
+    background-color: #b19cd4;
+    color: floralwhite;
+}
+footer div{
+    text-align: center;
+    padding: 10px 0;
+}
