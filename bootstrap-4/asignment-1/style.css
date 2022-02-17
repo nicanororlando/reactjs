@@ -1,5 +1,9 @@
-* {
-    color: black;
+body {
+    padding: 50px 0 0 0;
+    z-index: 0;
+}
+.navbar-dark{
+    background-color: #512da8;
 }
 .jumbotron{
     padding: 70px 30px;
@@ -15,12 +19,15 @@ div h2{
     padding: 10px 10px 10px 0;
 }
 footer{
-    padding: 70px 30px;
+    padding: 50px 20px 30px 20px;
     margin: 0 auto;
     background-color: #b19cd4;
     color: floralwhite;
 }
 footer div{
+    color: black;
     text-align: center;
-    padding: 10px 0;
+}
+.copyright{
+    padding-top: 20px;
 }
