@@ -31,3 +31,19 @@ footer div{
 .copyright{
     padding-top: 20px;
 }
+
+/****************** About Us ******************/
+
+/**************** END About Us ****************/
+
+/***************** Contact Us *****************/
+#feedback{
+    margin: 50px 0;
+}
+form div{
+    padding: 2px 0;
+}
+textarea .form-control{
+    margin-top: 0;
+}
+/*************** END Contact Us ***************/
