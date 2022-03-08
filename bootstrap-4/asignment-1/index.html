@@ -23,13 +23,7 @@
 
 <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
     <div class="container">
-        <!--
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <a class="navbar-brand mr-auto" href="#">Ristorante Con Fusion</a>
-        -->
-        <a class="navbar-brand" href="./index.html">Ristorante Con Fusion</a>
+        <a class="navbar-brand" href="./index.html"><img src="img/logo.png" height="30" width="41" alt=""></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
             aria-expanded="false" aria-label="Toggle navigation">
@@ -58,18 +52,23 @@
     <header class="jumbotron">
         <div class="container">
             <div class="row row-header">
-                <div class="col-12 col-sm-6">
+                <div class="col-12 col-sm-6 align-self-center">
                     <h1>Ristorante con Fusion</h1>
                     <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
                 </div>
-                <div class="col-12 col-sm">
+                <div class="col-12 col-sm-3 align-self-center">
+                   <!--img responsive-->
+                   <img class="img-fluid logo" src="img/logo.png">
+                </div>
+                <div class="col-12 col-sm-3 align-self-center">
+                    <a class="btn btn-warning" role="button" href="#card-view">Reserve Table</a>
                 </div>
             </div><!--Row-->
         </div><!--Container-->
     </header>
 
     <div class="container">
-        <div class="row">
+        <div class="row row-cont">
             <div class="col-12 order-xs-last">
                 <h2>Corporate Leadership</h2>
                 
@@ -81,12 +80,125 @@
                 
                 <h3>Agumbe Tang <small>Chief Taste Officer</small></h3>
                 <p class="d-none d-sm-block">Blessed with the most discerning gustatory sense, Agumbe, our CTO, personally ensures that every dish that we serve meets his exacting tastes. Our chefs dread the tongue lashing that ensues if their dish does not meet his exacting standards. He lives by his motto, <em>You click only if you survive my lick.</em></p>
-                
-                <h3>Alberto Somayya <small>Executive Chef</small></h3>
-                <p class="d-none d-sm-block">Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. He says, <em>Put together the cuisines from the two craziest cultures, and you get a winning hit! Amma Mia!</em></p>
-            </div><!--Row-->
-        </div><!--Container-->
-    </div>
+            </div><!--Column-->
+        </div><!--Row-->    
+        
+        <div class="row row-cont align-items-center">
+            <div class="col col-sm order-sm-first align-self-center">
+                <img class="d-flex mr-3 img-thumbnail align-self-center" width="150px"
+                        src="img/uthappizza.png" alt="Uthappizza">
+            </div>
+            <div class="col col-sm-10 order-sm-first align-self-center media-body">
+                <h2 class="mt-0">Uthappizza
+                    <span class="badge bg-danger">HOT</span>
+                    <span class="badge rounded-pill bg-secondary">$4.99</span></h2>
+                <p class="d-none d-sm-block">A unique combination of Indian Uthappam (pancake) and
+                    Italian pizza, topped with Cerignola olives, ripe vine
+                    cherry tomatoes, Vidalia onion, Guntur chillies and
+                    Buffalo Paneer.</p>
+            </div>
+        </div><!--Row-->    
+
+        <div class="row row-cont align-items-center">
+            <div class="col col-sm order-sm-first align-self-center">
+                <img class="d-flex img-thumbnail" width="150px"
+                src="img/alberto.png" alt="Alberto Somayya">
+            </div>
+            <div class="col col-sm-10 order-sm-first align-self-center media-body">                    
+                <h2 class="mt-0">Alberto Somayya</h2>
+                <h4>Executive Chef</h4>
+                <p class="d-none d-sm-block">Award winning three-star Michelin chef with wide
+                    International experience having worked closely with
+                    whos-who in the culinary world, he specializes in
+                    creating mouthwatering Indo-Italian fusion experiences.
+                </p>
+            </div><!--Media body-->
+        </div><!--Row-->    
+
+        <div class="row row-cont align-items-center">
+            <h3 class="col-12 col-sm-2">This Month's Promotion</h3>
+            <div class="col col-sm-8 align-self-center media-body">
+                <h2 class="mt-0">Weekend Grand Buffet
+                    <span class="badge bg-danger">NEW</span></h2>
+                <p class="d-none d-sm-block">A unique combination of Indian Uthappam (pancake) and
+                    Italian pizza, topped with Cerignola olives, ripe vine
+                    cherry tomatoes, Vidalia onion, Guntur chillies and
+                    Buffalo Paneer.</p>
+            </div>
+            <div class="col col-sm-2 align-self-center">
+                <img class="d-flex mr-3 img-thumbnail align-self-center" width="150px"
+                        src="img/uthappizza.png" alt="Uthappizza">
+            </div>  
+        </div><!--Row-->    
+
+        <div class="row row-cont align-items-center" id="card-view">
+            <div class="col-sm-8 offset-xs-0 offset-sm-2 mb-100">
+                <div class="card">
+                    <h3 class="card-header bg-warning text-black">Facts At a Glance</h3>
+                    <div class="card-body">
+                        <dl class="row">
+                            <dt class="col-md-4">Number of Guests</dt>
+                              <dd class="col-sm-2 col-md-1">
+                                <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                <label class="form-check-label" for="flexRadioDefault1">1</label>
+                              </div></dd>
+                              <dd class="col-sm-2 col-md-1">
+                                <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                <label class="form-check-label" for="flexRadioDefault1">2</label>
+                              </div></dd>
+                              <dd class="col-sm-2 col-md-1">
+                                <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                <label class="form-check-label" for="flexRadioDefault1">3</label>
+                              </div></dd>
+                              <dd class="col-sm-2 col-md-1">
+                                <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                <label class="form-check-label" for="flexRadioDefault1">4</label>
+                              </div></dd>
+                              <dd class="col-sm-2 col-md-1">
+                                <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                <label class="form-check-label" for="flexRadioDefault1">5</label>
+                              </div></dd>
+                              <dd class="col-sm-2 col-md-1">
+                                <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                <label class="form-check-label" for="flexRadioDefault1">6</label>
+                              </div></dd>
+                            
+                            <form action="">
+                              <div class="row align-items-center">
+                                <dt class="col-md-4">Date and time</dt>
+                                <div class="form-group col-xs-12 col-md-4">
+                                    <div class="col-md-11">
+                                        <input type="text" class="form-control" id="firstname" 
+                                        name="firstname" placeholder="First Name">
+                                    </div>
+                                </div><!--Form group-->
+                                <div class="form-group col-xs-12 col-md-4">
+                                    <div class="col-md-11">
+                                        <input type="text" class="form-control" id="firstname" 
+                                        name="firstname" placeholder="First Name">
+                                    </div>
+                                </div><!--Form group-->
+                              </div><!--Row-->
+                              <div class="form-group row">
+                                <div class="offset-md-4 col-md-10">
+                                    <button type="submit" class="btn btn-primary">
+                                        Send Feedback
+                                    </button>
+                                </div> 
+                            </div><!--Form group-->
+                            </form>
+                        </dl><!--Row-->
+                    </div><!--Card body-->
+                </div><!--Card-->
+            </div><!--Col-->
+        </div><!--Row--> 
+    </div><!--Container-->
 
     <footer class="footer">
         <div class="container">
