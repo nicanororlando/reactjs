@@ -2,6 +2,13 @@ body {
     padding: 50px 0 0 0;
     z-index: 0;
 }
+div h2{
+    padding: 10px 10px 10px 0;
+}
+footer div{
+    color: black;
+    text-align: center;
+}
 .navbar-dark{
     background-color: #512da8;
 }
@@ -17,18 +24,33 @@ body {
 .row-cont{
     margin: 50px 0;
 }
-div h2{
-    padding: 10px 10px 10px 0;
+.carousel{
+    margin: 40px 0 80px;
+    background: #512da8;
+}
+.carousel-item{
+    height: 300px;
+}
+.carousel-item img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+}
+div .carousel-caption{
+    padding: 50px 0px;
+}
+.tab-content{
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
 }
 .footer{
     padding: 50px 20px 30px 20px;
     margin: 0 auto;
     background-color: #b19cd4;
     color: floralwhite;
-}
-footer div{
-    color: black;
-    text-align: center;
 }
 .copyright{
     padding-top: 20px;
