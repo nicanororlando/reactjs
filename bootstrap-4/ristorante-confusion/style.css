@@ -24,6 +24,16 @@ footer div{
 .row-cont{
     margin: 50px 0;
 }
+
+/* Reservation Modal */
+.modal-header{
+    color: white;
+    background-color: #6c48be;
+}
+.modal-body{
+    background-color: rgb(230, 199, 255);
+}
+
 .carousel{
     margin: 40px 0 80px;
     background: #512da8;
@@ -39,6 +49,11 @@ footer div{
 }
 div .carousel-caption{
     padding: 50px 0px;
+}
+#carouselButton{
+    position: absolute;
+    right: 200px;
+    bottom: 0;
 }
 .tab-content{
     border-left: 1px solid #ddd;
