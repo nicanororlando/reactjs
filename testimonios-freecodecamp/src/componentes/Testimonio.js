@@ -1,6 +1,17 @@
 import React from 'react';
 import '../hojas-de-estilo/Testimonio.css'
  
+class ComponenteClase extends React.Component {
+  constructor(){
+    super();  //Para heredar todas las funciones de su componente padre react.comp
+    this.state = {miEstado: true}
+  }
+  render() {
+    return <p>Componente {this.props.nombreDelProp}</p>;
+  }
+}
+
+
 /*Componentes funcionales: Un elemento funcional de react retornaun elemento JSX, que 
 es basicamente una combinacion de HTML con js. */
 function Testimonio(props) {

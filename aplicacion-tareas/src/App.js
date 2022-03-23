@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import { ListaDeTareas } from './componentes/ListaDeTareas.jsx';
 
+//Estaria bueno agregar para que se guarden las tareas cuando se recargue la pag. 
+
 function App() {
   return (
     <div className="App">

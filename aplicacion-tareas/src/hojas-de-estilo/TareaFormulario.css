@@ -25,4 +25,5 @@
   background-color: #00471b;
   color: white;
   text-transform: capitalize;   /*Las primeras letras de las palabrass en MAYUS*/
+  user-select: none;
 }

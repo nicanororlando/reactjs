@@ -10,10 +10,20 @@
   border-radius: 7px;
   border: 1px solid white;
   cursor: pointer;
+  user-select: none;
 }
-.tarea-contenedor.completada {
+div .tarea-contenedor.completada {
   background-color: #5a01a7;
   text-decoration: line-through;
+}
+.tarea-contenedor:nth-child(3n + 1){
+  background-color: #1b1b32;
+}
+.tarea-contenedor:nth-child(3n + 2){
+  background-color: #2a2a40;
+}
+.tarea-contenedor:nth-child(3n + 3){
+  background-color: #3b3b4f;
 }
 .tarea-texto {
   width: 100%;
@@ -23,11 +33,10 @@
   align-items: center;
   overflow-wrap: anywhere;  /*Si el texto de la tarea es muy largo, se va a cortar y seguir para abajo */
 }
-.tarea-contenedor-iconos {
 
-}
 .tarea-icono {
   width: 25px;
   height: 25px;
   margin: 5px;
 }
+
