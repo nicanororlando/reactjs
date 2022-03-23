@@ -1,5 +1,5 @@
 {
-  "devDependencies": {
-    "sass": "^1.49.9"
+  "dependencies": {
+    "react-icons": "^4.3.1"
   }
 }
