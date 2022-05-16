@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+  margin: auto;
+  text-align: center;
+}
+
+button {
+  padding: 10px 25px;
+  font-weight: bold;
+}
+
+.Hijo-contador {
+  border: thin solid #000;
+  margin: 1rem;
+  padding: 1rem;
+}

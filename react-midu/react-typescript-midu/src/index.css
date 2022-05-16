@@ -13,22 +13,40 @@ code {
     monospace;
 }
 
-ul, h4 {
+ul,
+h4 {
   margin: 0;
   padding: 0;
 }
 
 img {
   border-radius: 200px;
-  height: auto;
-  width: 50px;
+  height: 70px;
+  width: 70px;
 }
 
-ul, li {
+li {
   border-radius: 4px;
   border: 1px solid #eee;
   list-style: none;
   margin-bottom: 16px;
   max-width: 320px;
   padding: 16px 32px 8px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+form input,
+textarea {
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  padding: 4px 6px;
+  margin: 2px 4px;
+}
+textarea {
+  font-family: inherit;
+  margin-bottom: 8px;
+  padding-left: 5px;
 }
