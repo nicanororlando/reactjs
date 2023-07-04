@@ -1,0 +1,30 @@
+.modal {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.75);
+  display: none; /*Para que por defecto no se muestre */
+  justify-content: center;
+  align-items: center;
+}
+.modal.is-open {
+  display: flex;
+}
+.modal-container {
+  position: relative;
+  min-width: 320px;
+  min-height: 200px;
+  max-width: 640px;
+  max-height: 600px;
+  padding: 1rem;
+  overflow-y: auto; /* Barra de scroll vertical */
+  background-color: #fff;
+}
+.modal-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}

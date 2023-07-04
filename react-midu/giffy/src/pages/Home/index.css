@@ -1,0 +1,52 @@
+:root {
+  --brand-color_1: #444;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.Container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px;
+}
+
+.Container-gifs {
+  width: 80%;
+  margin: 0 auto;
+}
+.Container-gifs h3 {
+  text-align: left;
+  margin-bottom: 10px;
+}
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+h3.app-title {
+  margin: 0;
+  padding: 0;
+}
+input {
+  height: 20px;
+  padding: 5px;
+  margin-right: 3px;
+  background-color: wheat;
+  color: black;
+  border: none;
+}
+button {
+  color: wheat;
+  margin: auto 0;
+  max-width: 100px;
+  height: 20px;
+  border-radius: 5px;
+  border: 1px solid rgb(169, 169, 169);
+}
+button:hover {
+  background-color: #333;
+  cursor: pointer;
+}

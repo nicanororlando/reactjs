@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ristorante Con Fusion: About Us</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <script src="https://kit.fontawesome.com/6c59ad322c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+<nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+    <div class="container">
+        <!--
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand mr-auto" href="#">Ristorante Con Fusion</a>
+        -->
+        <a class="navbar-brand" href="./index.html"><img src="img/logo.png" height="30" width="41"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+            aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!--Por defecto el contenido de este div estara oculto en sm y xs-->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!--Los enlaces que ponga aca van a mostrarse horizontalmente-->    
+            <!--mr-auto me permite especificar el margen derecho. Se aplica el mayor margen posible-->
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link active" href="./aboutus.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
+                <li class="nav-item"><a class="nav-link" href="./contactus.html">Contact</a></li>
+            </ul>
+        </div><!--Navbar-->
+    </div><!--Container-->
+</nav><!--Navbar-->
+    
+    <header class="jumbotron">
+        <div class="container">
+            <div class="row row-header">
+                <div class="col-12 col-sm-6">
+                    <h1>Ristorante con Fusion</h1>
+                    <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
+                </div>
+                <div class="col-12 col-sm-6 align-self-center">
+                    <img src="img/logo.png" class="img-fluid"><!--Img fluid para q se adapte-->
+                </div>
+            </div><!--Row-->
+        </div><!--Container-->
+    </header>
+
+    <div class="container">
+        <div class="row" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">About us</li>
+            </ol>  
+            <div>
+               <h3>About Us</h3>
+               <hr>
+            </div>
+        </div><!--Row-->
+        <div class="row">
+            <div class="history col-12 col-sm-6">
+                <h2>Our History</h2>
+                <p>Started in 2010, Ristorante con Fusion quickly established itself as a culinary icon par excellence in Hong Kong. With its unique brand of world fusion cuisine that can be found nowhere else, it enjoys patronage from the A-list clientele in Hong Kong.  Featuring four of the best three-star Michelin chefs in the world, you never know what will arrive on your plate the next time you visit us.</p>
+                <p>The restaurant traces its humble beginnings to <em>The Frying Pan</em>, a successful chain started by our CEO, Mr. Peter Pan, that featured for the first time the world's best cuisines in a pan.</p>
+            </div>
+            <div class="col-sm">
+                <div class="card">
+                    <h3 class="card-header bg-primary text-white">Facts At a Glance</h3>
+                    <div class="card-body">
+                        <dl class="row">
+                            <dt class="col-6">Started</dt>
+                            <dd class="col-6">3 Feb. 2013</dd>
+                            <dt class="col-6">Started</dt>
+                            <dd class="col-6">3 Feb. 2013</dd>
+                            <dt class="col-6">Started</dt>
+                            <dd class="col-6">3 Feb. 2013</dd>
+                            <dt class="col-6">Started</dt>
+                            <dd class="col-6">3 Feb. 2013</dd>
+                        </dl>
+                    </div>
+                </div><!--Card-->
+            </div><!--Col-->
+            <div class="col-12">
+                <div class="card card-body bg-light">
+                    <blockquote class="blockquote">
+                        <p class="">You better cut the pizza in four pieces because
+                            I´m not hungry enought to eat six
+                        </p> <!--Margin bottom 0-->
+                        <footer class="blockquote-footer">
+                            <cite title="Source title">The Wit and Winsom of Yogi Berra, P. pepe</cite>
+                        </footer>
+                    </blockquote>
+                </div>
+            </div>
+        </div><!--Row-->
+        <div class="row row-cont">
+            <div class="col-12 order-xs-last">
+                <h2>Corporate Leadership</h2>
+                
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="nav-peter-tab" data-bs-toggle="tab" data-bs-target="#nav-peter" role="tab" aria-controls="nav-peter" aria-selected="true">Peter Pan, CEO</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="nav-danny-tab" data-bs-toggle="tab" data-bs-target="#nav-danny" role="tab" aria-controls="nav-danny" aria-selected="false">Danny Witherspoon, CFO</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="nav-agumbe-tab" data-bs-toggle="tab" data-bs-target="#nav-agumbe" role="tab" aria-controls="nav-agumbe" aria-selected="false">Agumbe Tang, CTO</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="nav-alberto-tab" data-bs-toggle="tab" data-bs-target="#nav-alberto" role="tab" aria-controls="nav-alberto" aria-selected="false">Alberto Somayya, Exec. Chef</button>
+                    </li>
+                </ul>
+
+                <div class="tab-content" id="nav-tavContent">
+
+                    <!-- El tabpanel es el panel que se mostrara cuando se seleccione un item.
+                         La clase fade permite que este contenido se desvanezca.
+                         La clase show especifica esencialmente que este contenido debe mostrarse cuando la 
+                    pagina se renderiza por primera vez, por lo tanto se aplica solo al primer panel de pestañas.
+                         Aplico active ya que este es el panel de pestañas que se mostrara en la pagina cuando se renderize por primera vez-->
+                    
+                    <div class="tab-pane fade show active" id="nav-peter" role="tabpanel" aria-labelledby="nav-peter-tab">
+                        <h3>Peter Pan <small>Chief Epicurious Officer</small></h3>
+                        <p class="d-none d-sm-block">Our CEO, Peter, credits his hardworking East Asian immigrant parents who undertook the arduous journey to the shores of America with the intention of giving their children the best future. His mother's wizardy in the kitchen whipping up the tastiest dishes with whatever is available inexpensively at the supermarket, was his first inspiration to create the fusion cuisines for which <em>The Frying Pan</em> became well known. He brings his zeal for fusion cuisines to this restaurant, pioneering cross-cultural culinary connections.</p>
+                    </div>
+                    
+                    <div class="tab-pane fade" id="nav-danny" role="tabpanel" aria-labelledby="nav-danny-tab">
+                        <h3>Dhanasekaran Witherspoon <small>Chief Food Officer</small></h3>
+                        <p class="d-none d-sm-block">Our CFO, Danny, as he is affectionately referred to by his colleagues, comes from a long established family tradition in farming and produce. His experiences growing up on a farm in the Australian outback gave him great appreciation for varieties of food sources. As he puts it in his own words, <em>Everything that runs, wins, and everything that stays, pays!</em></p>
+                    </div>
+
+                    <div class="tab-pane fade" id="nav-agumbe" role="tabpanel" aria-labelledby="nav-agumbe-tab">
+                        <h3>Agumbe Tang <small>Chief Taste Officer</small></h3>
+                        <p class="d-none d-sm-block">Blessed with the most discerning gustatory sense, Agumbe, our CTO, personally ensures that every dish that we serve meets his exacting tastes. Our chefs dread the tongue lashing that ensues if their dish does not meet his exacting standards. He lives by his motto, <em>You click only if you survive my lick.</em></p>
+                    </div>
+
+                    <div class="tab-pane fade" id="nav-alberto" role="tabpanel" aria-labelledby="nav-alberto-tab">
+                        <h3>Alberto Somayya <small>Executive Chef</small></h3>
+                        <p class="d-none d-sm-block">Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences.</p>
+                    </div>
+                </div><!--Tab-content-->
+            </div><!--Column-->
+        </div><!--Row-->   
+        <div class="row row-content">
+            <div class="col-12 col-sm-9">
+                <h2>Facts &amp; Figures</h2>
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead class="table-dark">
+                            <tr>
+                                <th>&nbsp;</th>
+                                <th>2013</th>
+                                <th>2014</th>
+                                <th>2015</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>Employees</th>
+                                <td>15</td>
+                                <td>30</td>
+                                <td>40</td>
+                            </tr>
+                            <tr>
+                                <th>Guests Served</th>
+                                <td>1500</td>
+                                <td>303</td>
+                                <td>4034</td>
+                            </tr>
+                            <tr>
+                                <th>Annual Turnover</th>
+                                <td>$150000</td>
+                                <td>$30000</td>
+                                <td>$4000</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="col-12 col-sm-3"></div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row justify-content-center">             
+                <div class="col-4 col-sm-4">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./aboutus.html">About</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="./contactus.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-7 col-sm-4">
+                    <h5>Our Address</h5>
+                    <address>
+		              121, Clear Water Bay Road<br>
+		              Clear Water Bay, Kowloon<br>
+		              HONG KONG<br>
+		              Tel.: +852 1234 5678<br>
+		              Fax: +852 8765 4321<br>
+		              Email: <a href="mailto:confusion@food.net">confusion@food.net</a>
+		           </address>
+                </div>
+                <div class="col-12 col-sm-4 align-self-center">
+                    <div class="text-center">
+                        <a class="btn btn-social-icon btn-google" href="http://google.com/+">
+                            <i class="fa fa-google-plus"></i></a>
+                        <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id=">
+                            <i class="fa fa-facebook"></i></a>
+                        <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/">
+                            <i class="fa fa-linkedin"></i></a>
+                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/">
+                            <i class="fa fa-twitter"></i></a>
+                        <a class="btn btn-social-icon btn-google" href="http://youtube.com/">
+                            <i class="fa fa-youtube"></i></a>
+                        <a class="btn btn-social-icon" href="mailto:">
+                            <i class="fa fa-envelope-o"></i></a>
+                    </div>
+                </div>
+           </div><!--Row-->
+           <div class="row justify-content-center">             
+                <div class="col-auto">
+                    <p>© Copyright 2018 Ristorante Con Fusion</p>
+                </div>
+           </div><!--Row-->
+        </div><!--Container-->
+    </footer>
+    
+<!-- First popper, second bootstrap, then javascript plugins -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>
